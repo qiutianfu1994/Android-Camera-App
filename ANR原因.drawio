@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T15:27:43.765Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="MQu_QMWuGLua9ubSbd-H" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T15:31:28.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="VFpskGUY-iIDogt_Rp-K" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,6 +17,14 @@
         </mxCell>
         <mxCell id="RJ7MKuOBHAiKL5rbFxWK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cfZGZZkKTrrLzm3ARtIg-0" target="RJ7MKuOBHAiKL5rbFxWK-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ7MKuOBHAiKL5rbFxWK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cfZGZZkKTrrLzm3ARtIg-0" target="RJ7MKuOBHAiKL5rbFxWK-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="603" />
+              <mxPoint x="200" y="1315" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="cfZGZZkKTrrLzm3ARtIg-0" value="ANR原因" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="60" y="583" width="90" height="40" as="geometry" />
@@ -267,8 +275,32 @@
         <mxCell id="RJ7MKuOBHAiKL5rbFxWK-27" value="canReceiveTouchInput = false 导致无法切焦点" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="1211" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RJ7MKuOBHAiKL5rbFxWK-29" value="没有焦点窗口" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="RJ7MKuOBHAiKL5rbFxWK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RJ7MKuOBHAiKL5rbFxWK-29" target="RJ7MKuOBHAiKL5rbFxWK-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ7MKuOBHAiKL5rbFxWK-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RJ7MKuOBHAiKL5rbFxWK-29" target="RJ7MKuOBHAiKL5rbFxWK-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ7MKuOBHAiKL5rbFxWK-29" value="底层问题" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="240" y="1300" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ7MKuOBHAiKL5rbFxWK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RJ7MKuOBHAiKL5rbFxWK-31" target="RJ7MKuOBHAiKL5rbFxWK-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ7MKuOBHAiKL5rbFxWK-31" value="关中断耗时长" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="1270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ7MKuOBHAiKL5rbFxWK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="RJ7MKuOBHAiKL5rbFxWK-32" target="RJ7MKuOBHAiKL5rbFxWK-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ7MKuOBHAiKL5rbFxWK-32" value="大量ufs failed" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="1330" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ7MKuOBHAiKL5rbFxWK-35" value="sprd_dbg: irqsoff（展锐平台log）" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="1270" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ7MKuOBHAiKL5rbFxWK-36" value="kernel.log：ufs：ufshcd_abort: failed with err 5" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="1330" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
