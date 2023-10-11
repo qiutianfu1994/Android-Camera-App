@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T15:26:35.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="-frOXP4ma8NW6E72msdQ" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T15:27:43.765Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="MQu_QMWuGLua9ubSbd-H" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -266,6 +266,9 @@
         </mxCell>
         <mxCell id="RJ7MKuOBHAiKL5rbFxWK-27" value="canReceiveTouchInput = false 导致无法切焦点" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="400" y="1211" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RJ7MKuOBHAiKL5rbFxWK-29" value="没有焦点窗口" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="1300" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
